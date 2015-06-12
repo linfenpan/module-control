@@ -1,0 +1,15 @@
+{
+	"options": {
+		"js": ["combine"],
+		"css": ["copy", "renameURL"],
+		"less": ["combine", "renameURL"],
+		"other": ["copy"],
+		"dist": "./mmm",
+		"src": "./modules/"
+	},
+	"aaa": ["a():theme()", "b"],
+	"bbb": {
+		"files": ["b", "c"],
+		"css": ["combine", "renmaeURL"]
+	}
+}
